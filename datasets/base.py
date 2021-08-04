@@ -1,5 +1,5 @@
-from typing import Tuple
 import numpy as np
+from typing import Tuple
 
 class Base:
     x: np.ndarray

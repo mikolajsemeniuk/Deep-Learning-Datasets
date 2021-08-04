@@ -1,8 +1,7 @@
 import nnfs
 import numpy as np
-from nnfs.datasets import vertical_data
 from datasets.base import Base
-
+from nnfs.datasets import vertical_data
 
 class Vertical(Base):
     def __init__(self, samples: int = 150, classes: int = 3) -> None:

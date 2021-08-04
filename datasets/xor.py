@@ -1,6 +1,6 @@
-from typing import List
 import numpy as np
 from datasets.base import Base
+from typing import List
 
 class XOR(Base):
     def __init__(self, samples: int = 150) -> None:

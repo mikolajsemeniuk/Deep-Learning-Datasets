@@ -1,7 +1,7 @@
 import nnfs
 import numpy as np
-from nnfs.datasets import spiral_data
 from datasets.base import Base
+from nnfs.datasets import spiral_data
 
 class Spiral(Base):
     def __init__(self, samples: int = 150, classes: int = 3) -> None:

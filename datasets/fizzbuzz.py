@@ -1,7 +1,6 @@
+import numpy as np
 from datasets.base import Base
 from typing import List
-import numpy as np
-
 
 class FizzBuzz(Base):
     def __init__(self, samples: int = 150):

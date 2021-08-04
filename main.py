@@ -1,3 +1,7 @@
+from datasets.diabetes import Diabetes
+from datasets.breastcancer import BreastCancer
+from datasets.boston import Boston
+from datasets.iris import Iris
 from datasets.circles import Circles
 from datasets.moons import Moons
 from datasets.vertical import Vertical
@@ -31,6 +35,18 @@ def main() -> None:
 
     circles = Circles()
     print(circles)
+
+    iris = Iris()
+    print(iris)
+
+    boston = Boston()
+    print(boston)
+
+    breastCancer = BreastCancer()
+    print(breastCancer)
+
+    diabetes = Diabetes()
+    print(diabetes)
 
 if __name__ == "__main__":
     main()
