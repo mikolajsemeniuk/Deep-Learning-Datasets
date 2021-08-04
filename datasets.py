@@ -37,10 +37,10 @@ from typing import List, Tuple
 #     return np.array([binary_encode(_)[::-1] for _ in range(100, samples + 100)]), \
 #             np.array([fizz_buzz_encode(_) for _ in range(100, samples + 100)])
 
-from datasets.xordataset import XORDataset
+# from datasets.xordataset import XORDataset
 
-xor = XORDataset()
-print(xor)
+# xor = XORDataset()
+# print(xor)
 
 # x0, y0 = spiral_data(samples=150, classes=3)
 # x1, y1 = vertical_data(samples=150, classes=3)
